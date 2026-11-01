@@ -1,0 +1,6 @@
+{
+  "name": "Earth.poetry",
+  "description": "A premium travel storytelling platform with a Frutiger Aero design aesthetic and honest direct-to-vendor pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

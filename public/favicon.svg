@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="epGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#20d09b" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#20d09b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#08121e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Outer dark background circle -->
+  <circle cx="32" cy="32" r="32" fill="#08121e"/>
+  <!-- Soft emerald glow -->
+  <circle cx="32" cy="32" r="28" fill="url(#glow)"/>
+  <!-- Compass / Earth cross -->
+  <g fill="none" stroke="url(#epGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.9">
+    <ellipse cx="32" cy="32" rx="20" ry="20"/>
+    <ellipse cx="32" cy="32" rx="20" ry="9"/>
+    <path d="M12 32 H52 M32 12 V52"/>
+    <path d="M32 32 l8 -12 M32 32 l-12 8" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <!-- Emerald compass north diamond -->
+  <polygon points="32,11 35,17 32,21 29,17" fill="url(#epGrad)" stroke="#08121e" stroke-width="0.8"/>
+  <!-- "EP" initials -->
+  <text x="32" y="47" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="11" fill="#ffffff" opacity="0.96">ep</text>
+</svg>

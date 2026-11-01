@@ -1,0 +1,19 @@
+{
+  "collections": {
+    "queries": {
+      "description": "User queries for customized direct price travel curations",
+      "fields": {
+        "name": "string",
+        "email": "string",
+        "phone": "string",
+        "destination": "string",
+        "vibe": "string",
+        "souls": "number",
+        "departureDate": "string",
+        "daysCount": "number",
+        "inspiration": "string",
+        "createdAt": "timestamp"
+      }
+    }
+  }
+}
